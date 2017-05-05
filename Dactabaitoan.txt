@@ -1,0 +1,15 @@
+﻿Đặc tả bài toán
+*Nhiệm vụ cơ bản:
++ Hệ thống quản lý cửa hàng giày được xây dựng nhằm phục vụ các nhiệm vụ cơ bản sau:
+- Tự động hóa một số công việc để tiết kiệm thời gian và công sức như: tạo mã số hàng hóa, thông tin hàng đã bán, kiểm tra hàng hóa trong kho...
+- Cập nhập thông tin của các loại hàng mới vào danh sách bán và xóa thông tin của một số loại hàng không còn bán nữa.
+- Tự động tính toán và tổng hợp lợi nhuận thu được sau mỗi ngày, mỗi tuần, mỗi tháng...
+- Khách hàng có thể tìm kiếm chi tiết thông tin hàng hóa dựa vào tên hàng, mã hàng, giá, số lượng ... có bán tại cửa hàng qua website.
+*Những vấn đề đặt ra:
+- Hệ thống quản lý của cửa hàng được phân công thành những bộ phận, mỗi bộ phận phụ trách một mảng công việc.
++Cơ cấu tổ chức:
+- Quản lý: Bộ phận này có trách nhiệm quản lý các bộ phận còn lại. Dựa vào báo cáo hàng ngày, hàng tuần từ các bộ phận gửi đến để ra các quyết định như: nhập hàng, khuyến mại... .
+- Kho: Bộ phận này có trách nhiệm lựa chọn, liên hệ với các nhà cung cấp để nhập hàng theo yêu cầu từ quản lý.
+- Bán hàng: Phụ trách việc bán hàng, nhận thanh toán và in đơn. Yêu cầu chuyển hàng từ kho lên cửa hàng.
+- Kinh doanh online: Phụ trách việc giới thiệu và bán hàng qua website của cửa hàng.
+- Tài chính: Thanh toán tiền hàng cho nhà cung cấp, thanh toán lương cho nhân viên cửa hàng.
